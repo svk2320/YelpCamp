@@ -11,9 +11,9 @@ import { features } from "../../constants";
 
 const Home = () => {
   return (
-    <div className="container mx-auto lg:relative">
+    <div className="mx-auto lg:relative">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-        <div className="flex justify-start flex-col lg:ms-40 lg:mt-24 lg:order-1 order-2">
+        <div className="flex justify-start p-6 lg:p-0 flex-col lg:ms-40 lg:mt-24 lg:order-1 order-2">
           <div className="text-6xl font-bold">Explore the best camps on Earth.</div>
           <div className="pt-3">
             YelpCamp is a curated list of the best camping spots on Earth.
@@ -51,7 +51,7 @@ const Home = () => {
           <img
             src={HeroImageMT}
             alt="HeroImageMT"
-            className="lg:hidden md:block"
+            className="lg:hidden w-screen h-full object-cover"
           />
         </div>
       </div>
