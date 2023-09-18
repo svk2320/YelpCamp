@@ -26,7 +26,7 @@ const Home = () => {
             ))}
           </div>
           <div className="pt-5">
-            <Button pageLink="searchcampground" text="View Campgrounds" />
+            <Button pageLink="search-campground" text="View Campgrounds" />
           </div>
           <div className="pt-9">
             Partnered with:

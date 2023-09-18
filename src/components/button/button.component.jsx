@@ -5,7 +5,7 @@ const Button = ({pageLink, text}) => {
   return (
     <Link to={pageLink}>
       <button
-        class="bg-black text-white font-bold py-2 px-4 rounded p-10"
+        className="bg-black text-white font-bold py-2 px-4 rounded p-10"
         type="button"
       >
         {text}
