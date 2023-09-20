@@ -14,7 +14,7 @@ export const features = [
 ];
 
 // camp informations
-export const camps = [
+export const campsite = [
     {
         title: "Mount Ulap",
         description: "One of the most famous hikes in Benguet in MT Ulap in Itogon.",
