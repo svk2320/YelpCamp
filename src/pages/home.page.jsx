@@ -1,11 +1,13 @@
 import React from "react";
-import Button from "../components/button/button.component";
+
 import HeroImage from "../assets/Hero Image.jpg";
 import HeroImageMT from "../assets/Hero Image (Tablet and Mobile).jpg";
-import Checkmarks from "../components/checkmarks/checkmarks.component";
+import Checkmarks from "../components/checkmarks.component";
 import Airbnb from "../assets/Airbnb.svg";
 import Booking from "../assets/Booking.svg";
 import PlumGuide from "../assets/Plum Guide.svg";
+
+import Button from "../components/button.component";
 import { features } from "../constants";
 
 const Home = () => {

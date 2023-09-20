@@ -1,4 +1,4 @@
-import Checkmark from "../../assets/Checkmark.svg";
+import Checkmark from "../assets/Checkmark.svg";
 
 const Checkmarks = ({feature}) => {
   return (

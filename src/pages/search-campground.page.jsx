@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { campsite } from "../constants";
-import CampCards from "../components/camp-cards/camp-cards.component";
 import { AiOutlineSearch } from "react-icons/ai";
+
+import { campsite } from "../constants";
+import CampCards from "../components/camp-cards.component";
 
 const SearchCampground = () => {
   const [searchField, setSearchField] = useState("");
